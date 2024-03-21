@@ -1,0 +1,88 @@
+:root {
+    --perla: #f8edd1;
+    --rosa: #d88a8a;
+    --grisO: #474843;
+    --grisC: #9d9d93;
+    --grisCeleste: #c5cfc6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    height: 10vh;
+    width: 100vw;
+    background-color: var(--perla);
+    text-align: center;
+    padding: 1rem;
+}
+
+.main {
+    min-height: 80vh;
+    width: 100vw;
+    background-color: var(--rosa);
+    padding: 1rem;
+}
+
+#foto {
+    height: 250px;
+    width: 500px;
+    padding: 10px;
+}
+
+.main>div {
+    background-color: var(--grisO);
+    width: 500px;
+    height: 250px;
+    margin: 1rem;
+}
+
+.secciones {
+    background-color: var(--grisCeleste);
+    margin: 1rem;
+    padding: 10px;
+    list-style-position: inside;
+    width: 80vw;
+}
+
+.parrafos {
+    background-color: var(--grisC);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.articles {
+    border-radius: 10px;
+    background-color: var(--grisC);
+    padding: 10px;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding: 1rem;
+}
+
+h3 {
+    padding: 10px;
+}
+
+footer {
+    height: 10vh;
+    background-color: var(--perla);
+    padding: 1rem;
+    text-align: center;
+}
+
+footer>a {
+    text-decoration: none;
+}
+
+footer>p {
+    padding: 5px;
+}
